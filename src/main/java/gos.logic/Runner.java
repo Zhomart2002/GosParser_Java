@@ -16,7 +16,7 @@ public class Runner {
     }
 
     public static void run() {
-        Client client = ClientFactory.createRequestWithToken("fb5bd4adf4af246d3456756e36a83c71");
+        Client client = ClientFactory.createRequestWithToken("");
         try {
             /* Getting List of all available companies from json file */
             List<Company> companies = CompanyFactory.getAllCompanyAsList();
